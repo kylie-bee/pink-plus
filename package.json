@@ -1,0 +1,21 @@
+{
+  "name": "pink-plus",
+  "displayName": "Pink+",
+  "description": "Pink-shaded version of Dark+. The goal is to maintain similar readability while using more pinks and purples.",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Pink+",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pink_plus.json"
+      }
+    ]
+  }
+}
