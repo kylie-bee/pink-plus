@@ -1,0 +1,93 @@
+{
+  "author": "Your Name",
+  "name": "Pink+ Theme Family",
+  "themes": [
+    {
+      "name": "Pink+ Dark",
+      "appearance": "dark",
+      "style": {
+        /* ---------- Global UI colours ---------- */
+        "background": "#201e23",
+        "foreground": "#D4D4D4",
+        "border": "#6B6B6B",
+        "accent": "#ab0eb3",
+
+        /* ---------- Editor colours ---------- */
+        "editor.background": "#201e23",
+        "editor.foreground": "#D4D4D4",
+        "editor.selectionHighlightBackground": "#ADD6FF26",
+        "editor.inactiveSelectionBackground": "#3A3D41",
+        "editor.indent_guide": "#404040",
+        "editor.indent_guide_active": "#707070",
+        "editor.line_number": "#7F7F7F",
+        "editor.gutter.background": "#201e23",
+
+        /* ---------- Sidebar / Activity Bar ---------- */
+        "panel.background": "#2d2a32",
+        "sideBar.background": "#2d2a32",
+        "activityBar.background": "#3b373c",
+        "activityBar.foreground": "#ffb2fa",
+        "tab.inactiveBackground": "#37343d",
+        "tab.active_background": "#222222",
+        "tab.active_foreground": "#ffffff",
+
+        /* ---------- Status bar ---------- */
+        "status_bar.background": "#d316c7",
+        "status_bar.foreground": "#ffffff",
+
+        /* ---------- Terminal ---------- */
+        "terminal.background": "#201e23",
+        "terminal.foreground": "#D4D4D4",
+        "terminal.ansi.red": "#ff0000",
+        "terminal.ansi.green": "#00ff00",
+        "terminal.ansi.yellow": "#ffff00",
+        "terminal.ansi.blue": "#0000ff",
+        "terminal.ansi.magenta": "#ff00ff",
+        "terminal.ansi.cyan": "#00ffff",
+        "terminal.ansi.white": "#ffffff",
+        "terminal.ansi.bright_black": "#808080",
+        "terminal.ansi.bright_white": "#ffffff",
+
+        /* ---------- Syntax highlighting ---------- */
+        "syntax": {
+          "keyword": {
+            "color": "#ab0eb3",
+            "font_style": "normal"
+          },
+          "string": {
+            "color": "#ab0eb3",
+            "font_style": "normal"
+          },
+          "comment": {
+            "color": "#7F7F7F",
+            "font_style": "italic"
+          },
+          "variable": {
+            "color": "#ffffff",
+            "font_style": "normal"
+          },
+          "number": {
+            "color": "#ff0000",
+            "font_style": "normal"
+          },
+          "builtin": {
+            "color": "#00ff00",
+            "font_style": "normal"
+          },
+          "operator": {
+            "color": "#ab0eb3",
+            "font_style": "normal"
+          }
+        },
+
+        /* ---------- Misc UI states ---------- */
+        "icon": "#ffb2fa",
+        "error": "#ff0000",
+        "warning": "#ffcc00",
+        "info": "#0f9d58",
+        "success": "#0f9d58",
+        "link_text.hover": "#ab0eb3"
+      }
+    }
+  ]
+}
